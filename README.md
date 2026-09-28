@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,45:6D28D9,100:22D3EE&section=header&text=Yasein%20Burqan&fontSize=58&fontColor=E6EDF3&fontAlignY=36&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20.NET%20%26%20Modern%20Web&descSize=18&descAlignY=58&descColor=E6EDF3" width="100%" alt="Yasein Burqan — Full-Stack Developer" />
+<img src="./assets/banner.svg" width="100%" alt="Yasein Burqan — Full-Stack Developer" />
 
 <a href="https://github.com/yaseinHburqan">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=640&height=48&lines=Building+scalable+web+applications;.NET+%E2%80%A2+Blazor+%E2%80%A2+ASP.NET+Core;React+%E2%80%A2+Angular+%E2%80%A2+Next.js;Clean+Architecture+%E2%80%A2+REST+APIs+%E2%80%A2+Docker" alt="Typing SVG" />

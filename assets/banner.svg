@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#140B26"/>
+      <stop offset="100%" stop-color="#06202A"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="neonShift" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#22D3EE;#A855F7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#A855F7;#22D3EE" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="orbP" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbC" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#E6EDF3" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <circle cx="160" cy="60" r="220" fill="url(#orbP)">
+      <animate attributeName="cx" values="160;260;160" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="250" r="240" fill="url(#orbC)">
+      <animate attributeName="cx" values="1060;960;1060" dur="14s" repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M0 240 C 200 200, 400 290, 600 245 S 1000 200, 1200 250" fill="none" stroke="url(#neon)"
+          stroke-width="2" stroke-opacity="0.7" filter="url(#glow)">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite"
+               values="M0 240 C 200 200, 400 290, 600 245 S 1000 200, 1200 250;
+                       M0 250 C 200 290, 400 210, 600 255 S 1000 290, 1200 240;
+                       M0 240 C 200 200, 400 290, 600 245 S 1000 200, 1200 250"/>
+    </path>
+    <path d="M0 265 C 250 230, 450 300, 650 262 S 1000 235, 1200 270" fill="none" stroke="url(#neon)"
+          stroke-width="1.5" stroke-opacity="0.35">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+               values="M0 265 C 250 230, 450 300, 650 262 S 1000 235, 1200 270;
+                       M0 258 C 250 295, 450 235, 650 270 S 1000 300, 1200 258;
+                       M0 265 C 250 230, 450 300, 650 262 S 1000 235, 1200 270"/>
+    </path>
+
+    <text x="600" y="120" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+          font-size="22" font-weight="600" letter-spacing="8" fill="#22D3EE" opacity="0.9">HELLO, I'M</text>
+    <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+          font-size="72" font-weight="800" fill="url(#neonShift)" filter="url(#glow)">Yasein Burqan</text>
+    <text x="600" y="225" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+          font-size="20" font-weight="500" fill="#E6EDF3" opacity="0.85">Full-Stack Developer · .NET &amp; Modern Web</text>
+
+    <g font-family="'JetBrains Mono', Consolas, monospace" font-size="16" fill="#E6EDF3" opacity="0.35">
+      <text x="48" y="276">&lt;/&gt;</text>
+      <text x="1110" y="44">{ }</text>
+    </g>
+  </g>
+  <rect x="0.75" y="0.75" width="1198.5" height="298.5" rx="18" fill="none" stroke="url(#neon)" stroke-opacity="0.5" stroke-width="1.5"/>
+</svg>
