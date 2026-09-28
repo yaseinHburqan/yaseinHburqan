@@ -1,56 +1,103 @@
+<!-- Palette: bg #0D1117 · purple #A855F7 · cyan #22D3EE · text #E6EDF3 · border #30363D -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:512BD4,100:1E90FF&height=180&section=header&text=Yasein%20Burqan&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer&descAlignY=58&descSize=18" alt="Yasein Burqan — Full-Stack Developer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,45:6D28D9,100:22D3EE&section=header&text=Yasein%20Burqan&fontSize=58&fontColor=E6EDF3&fontAlignY=36&animation=fadeIn&desc=Full-Stack%20Developer%20%E2%80%A2%20.NET%20%26%20Modern%20Web&descSize=18&descAlignY=58&descColor=E6EDF3" width="100%" alt="Yasein Burqan — Full-Stack Developer" />
 
 <a href="https://github.com/yaseinHburqan">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=1E90FF&center=true&vCenter=true&width=600&lines=.NET+%E2%80%A2+Blazor+%E2%80%A2+ASP.NET+Core;React+%E2%80%A2+Angular+%E2%80%A2+Next.js;Clean+Architecture+%E2%80%A2+REST+APIs+%E2%80%A2+Docker;Scalable+%E2%80%A2+Modern+%E2%80%A2+High-performance" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=640&height=48&lines=Building+scalable+web+applications;.NET+%E2%80%A2+Blazor+%E2%80%A2+ASP.NET+Core;React+%E2%80%A2+Angular+%E2%80%A2+Next.js;Clean+Architecture+%E2%80%A2+REST+APIs+%E2%80%A2+Docker" alt="Typing SVG" />
 </a>
+
+<br/>
+
+<img src="https://img.shields.io/badge/Full--Stack-Developer-A855F7?style=for-the-badge&labelColor=0D1117" alt="Full-Stack Developer" />
+<img src="https://img.shields.io/badge/Open%20to-Collaborate-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Open to collaborate" />
+<img src="https://komarev.com/ghpvc/?username=yaseinHburqan&label=Profile%20views&color=A855F7&style=for-the-badge&labelColor=0D1117" alt="Profile views" />
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:A855F7,100:22D3EE" width="100%" />
 
-### 👋 About me
+## <img src="https://img.shields.io/badge/-%3E-A855F7?style=flat-square&labelColor=A855F7" height="22" /> About me
 
-I build **scalable, modern and high-performance web applications** — from clean, layered back ends
-to fast, accessible front ends.
+<table>
+<tr>
+<td width="55%" valign="top">
 
-- 🔭 Building modern web platforms on **.NET**, Blazor and SQL Server
-- 🧱 I care about **Clean Architecture**, clear boundaries and tests that actually catch bugs
-- 🌱 Exploring AI-assisted development workflows
-- ⚡ Open to interesting collaborations
+I design and build **scalable, modern and high-performance web applications** — clean, layered
+back ends and fast, accessible front ends.
 
-### 🛠️ Tech stack
+- **Back end** — .NET, ASP.NET Core, EF Core, SQL Server
+- **Front end** — Blazor, React, Angular, Next.js
+- **CMS** — Umbraco and headless content platforms
+- **Craft** — Clean Architecture, REST APIs, Docker, automated tests
+- **Now** — exploring AI-assisted development workflows
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=dotnet,cs,azure,react,angular,nextjs,ts,js&perline=8" alt="Back end and front end" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,docker,git,github,vscode&perline=8" alt="Tooling" />
-</p>
+</td>
+<td width="45%" valign="top">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Umbraco-3544B1?style=for-the-badge&logo=umbraco&logoColor=white" alt="Umbraco" />
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white" alt="Blazor" />
-  <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="EF Core" />
-  <img src="https://img.shields.io/badge/REST%20APIs-009688?style=for-the-badge&logo=swagger&logoColor=white" alt="REST APIs" />
-</p>
+```csharp
+public sealed record Developer
+{
+    public string Name => "Yasein Burqan";
+    public string Role => "Full-Stack Developer";
 
-### 📊 GitHub activity
+    public string[] Stack =>
+    [
+        ".NET", "Blazor", "React",
+        "Angular", "Next.js", "Umbraco"
+    ];
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=yaseinHburqan&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
+    public string Motto =>
+        "Clean code, clear boundaries.";
+}
+```
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yaseinHburqan/yaseinHburqan/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/yaseinHburqan/yaseinHburqan/output/github-snake.svg" alt="Contribution snake" />
-  </picture>
-</p>
+</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:22D3EE,100:A855F7" width="100%" />
+
+## <img src="https://img.shields.io/badge/-%3E-22D3EE?style=flat-square&labelColor=22D3EE" height="22" /> Tech stack
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E90FF,100:512BD4&height=100&section=footer" width="100%" />
+**Languages & frameworks**
+
+<img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,react,angular,nextjs,html,css,tailwind&theme=dark&perline=10" alt="Languages and frameworks" />
+
+**Data, cloud & tooling**
+
+<img src="https://skillicons.dev/icons?i=azure,docker,git,github,githubactions,postman,visualstudio,vscode&theme=dark&perline=8" alt="Data, cloud and tooling" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Blazor-0D1117?style=for-the-badge&logo=blazor&logoColor=A855F7" alt="Blazor" />
+<img src="https://img.shields.io/badge/ASP.NET%20Core-0D1117?style=for-the-badge&logo=dotnet&logoColor=A855F7" alt="ASP.NET Core" />
+<img src="https://img.shields.io/badge/EF%20Core-0D1117?style=for-the-badge&logo=dotnet&logoColor=22D3EE" alt="EF Core" />
+<img src="https://img.shields.io/badge/SQL%20Server-0D1117?style=for-the-badge&logo=microsoftsqlserver&logoColor=22D3EE" alt="SQL Server" />
+<img src="https://img.shields.io/badge/Umbraco-0D1117?style=for-the-badge&logo=umbraco&logoColor=A855F7" alt="Umbraco" />
+<img src="https://img.shields.io/badge/REST%20APIs-0D1117?style=for-the-badge&logo=swagger&logoColor=22D3EE" alt="REST APIs" />
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:A855F7,100:22D3EE" width="100%" />
+
+## <img src="https://img.shields.io/badge/-%3E-A855F7?style=flat-square&labelColor=A855F7" height="22" /> GitHub stats
+
+<div align="center">
+
+<img height="175" src="https://raw.githubusercontent.com/yaseinHburqan/yaseinHburqan/output/stats.svg" alt="GitHub stats" />
+<img height="175" src="https://github-readme-streak-stats.herokuapp.com?user=yaseinHburqan&background=0D1117&border=30363D&stroke=30363D&ring=A855F7&fire=22D3EE&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=22D3EE&sideLabels=A855F7&dates=8B949E&border_radius=12" alt="GitHub streak" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yaseinHburqan/yaseinHburqan/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/yaseinHburqan/yaseinHburqan/output/github-snake.svg" alt="Contribution snake" width="100%" />
+</picture>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:22D3EE,55:6D28D9,100:0D1117&section=footer" width="100%" />
