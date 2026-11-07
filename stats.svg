@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A855F7"/><stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .title { font: 700 18px 'Segoe UI', Ubuntu, sans-serif; fill: url(#g); }
+    .label { font: 400 14px 'Segoe UI', Ubuntu, sans-serif; fill: #E6EDF3; }
+    .value { font: 700 14px 'Segoe UI', Ubuntu, sans-serif; fill: #E6EDF3; }
+    .big { font: 800 34px 'Segoe UI', Ubuntu, sans-serif; fill: url(#g); }
+    .small { font: 400 12px 'Segoe UI', Ubuntu, sans-serif; fill: #8B949E; }
+    .row { opacity: 0; animation: fade .6s ease forwards; }
+    @keyframes fade { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @keyframes spin { to { stroke-dashoffset: 0; } }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="239" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <text x="25" y="38" class="title">Yasein's GitHub Stats</text>
+  <g class="row" style="animation-delay:0.00s"><circle cx="32" cy="73" r="4" fill="#22D3EE"/><text x="46" y="78" class="label">Contributions (last year)</text><text x="300" y="78" class="value" text-anchor="end">3</text></g><g class="row" style="animation-delay:0.15s"><circle cx="32" cy="99" r="4" fill="#A855F7"/><text x="46" y="104" class="label">Commits</text><text x="300" y="104" class="value" text-anchor="end">2</text></g><g class="row" style="animation-delay:0.30s"><circle cx="32" cy="125" r="4" fill="#22D3EE"/><text x="46" y="130" class="label">Pull requests</text><text x="300" y="130" class="value" text-anchor="end">0</text></g><g class="row" style="animation-delay:0.45s"><circle cx="32" cy="151" r="4" fill="#A855F7"/><text x="46" y="156" class="label">Code reviews</text><text x="300" y="156" class="value" text-anchor="end">0</text></g><g class="row" style="animation-delay:0.60s"><circle cx="32" cy="177" r="4" fill="#22D3EE"/><text x="46" y="182" class="label">Issues</text><text x="300" y="182" class="value" text-anchor="end">0</text></g><g class="row" style="animation-delay:0.75s"><circle cx="32" cy="203" r="4" fill="#A855F7"/><text x="46" y="208" class="label">Repositories</text><text x="300" y="208" class="value" text-anchor="end">1</text></g>
+  <circle cx="400" cy="128" r="58" fill="none" stroke="#30363D" stroke-width="8"/>
+  <circle cx="400" cy="128" r="58" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round"
+          stroke-dasharray="364" stroke-dashoffset="364" transform="rotate(-90 400 128)" filter="url(#glow)"
+          style="animation: spin 1.4s ease-out .2s forwards"/>
+  <text x="400" y="134" class="big" text-anchor="middle">3</text>
+  <text x="400" y="156" class="small" text-anchor="middle">contributions</text>
+  <text x="400" y="218" class="small" text-anchor="middle">3+ years on GitHub</text>
+</svg>
